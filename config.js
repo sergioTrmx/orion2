@@ -106,7 +106,7 @@ const banmsgporn = 'Hmmm pornozinho com antiporn ativado, ja sabe né...'
 const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Mamaste, ahora te llenamos de binarios😈😈😈'
+const banmsglink = 'Valiste verga, te vamos a llenar de binarios...'
 // mensagem de ban no antilink
 
 const adminmsglink = 'estan prohibidos los links, te salvaste por ser admin 🙃'
