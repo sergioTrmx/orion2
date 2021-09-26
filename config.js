@@ -86,13 +86,14 @@ const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário 
 const banmsgtype = '*Mamaste te baneare*'
 // mensagem de ban no anti tipos de mensagem
 
-const ativohelp = ``El sistema de recuento de mensajes es por grupo y consiste en clasificar, enumerar y eliminar personas en consecuencia. con la frecuencia de mensajes en el grupo, vea a continuación los comandos para administrar los mensajes del grupo:
+const ativohelp = `El sistema de recuento de mensajes es por grupo y consiste en clasificar, enumerar y eliminar personas en consecuencia. con la frecuencia de mensajes en el grupo, vea a continuación los comandos para administrar los mensajes del grupo:
 
 checkativo (marcar) - enumera la frecuencia del mensaje del miembro marcado
 rankativo - rankea a las personas mas activas del grupo
 banativos (num) - eliminar miembros con una cierta cantidad de números de msg hacia abajo
 filtroativo (num) - lista miembros con una cantidad de mensajes para abajo]
 atividade - lista actividad de todos los miembros del grupo
+
 Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.`
 
 const adminmsgtype = '*Tu é adm ent n vou te banir por mandar um tipo de mensagem proibida*'
