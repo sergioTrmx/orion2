@@ -115,7 +115,7 @@ const adminmsglink = 'estan prohibidos los links, te salvaste por ser admin 🙃
 const adminmsgpalavra = 'eso está en la lista de palabras prohibidas del bot'
 // mensagem de quando adm manda uma palavra proibida pelo bot
 
-const banmsgpalavra = 'Palavra proibida? Já sabe né'
+const banmsgpalavra = 'Palabra proibida? Já sabe né'
 // mensagem de ban quando manda uma palavra proibida pelo bot
 
 const qnttravahardroleta = 2
