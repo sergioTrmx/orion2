@@ -1,36 +1,28 @@
 const ttthelp = (p) => {
-    return `🔥 *JOGO DA VELHA* 🔥
+    return `🔥 *JOGO DE LA VELA* 🔥
 
-Disponível apenas pra grupos
-
-Como Jogar?
+Disponible solo para grupos
+¿Como Jugar?
 
 ➻❥ *${p}ttt <dificuldade>*
+DIFICULTADES:
 
-DIFICULDADES:
+easy: solo para divertir
 
-easy: só joga pra se divertir
+normal: 66% de probabilidad de bloquear o ganar
 
-normal: 66% de chance 
-de bloqueio e vitória
+hard: 100% de probabilidad de bloquear o ganar
 
-hard: 100% de chance 
-de bloqueio e vitória 
-
-impossible: NEM TENTA AMIGO
+impossible: No lo intentes amigo😳
 
 *INTERVALO:*
 
-Só pode iniciar outro jogo após 2 minutos,
-depois do jogo anterior ser iniciado,
-A partida terminará, automaticamente 
-após 2 minutos
+Solo puedes comenzar otro juego después de 2 minutos, después de que comience el juego anterior, El partido terminará automáticamente después de 2 minutos
+MARCANDO LAS COORDENADAS:
 
-MARCANDO AS COORDENADAS:
 ➻❥ *${p}coord <coordenada>*
-EXEMPLO:
+EJEMPLO:
 ➻❥ ${p}coord a1
-
 
 	🌀1️⃣2️⃣3️⃣
 	🅰️❌🔲🔲
@@ -38,33 +30,32 @@ EXEMPLO:
 	©️🔲🔲🔲
 
 VENDO STATUS:
-➻❥ *${p}tttme*
 
+➻❥ *${p}tttme*
 RECOMPENSAS:
 
 MODO EASY:
-Ganhou: + [ 25 / 50 ]
-Perdeu: - [ 200 / 200 ]
+Gano: + [ 25 / 50 ]
+Perdio: - [ 200 / 200 ]
 
 MODO NORMAL
-Ganhou: + [ 75 / 150 ]
-Perdeu: - [ 75 / 150 ]
+Gano: + [ 75 / 150 ]
+Perdio: - [ 75 / 150 ]
 
 MODO HARD
-Ganhou: + [ 200 / 400 ]
-Perdeu: - [ 25 / 50 ]
+Gano: + [ 200 / 400 ]
+Perdio: - [ 25 / 50 ]
 
 MODO IMPOSSIBLE
-Ganhou: + [ 1000 / 2000 」
-Perdeu: - [ 0 / 0 」
+Gano: + [ 1000 / 2000 」
+Perdio: - [ 0 / 0 ]
 
-JOGO EMPATADO
+JUEGO EMPATADO
 
 [ 0 / 0 ]
+PARTIDA NO FINALIZADA
 
-PARTIDA NÃO FINALIZADA
-
-Perdeu: - [ 75 / 150 ]`
+Perdio: - [ 75 / 150 ]`
 }
 
 exports.ttthelp = ttthelp
